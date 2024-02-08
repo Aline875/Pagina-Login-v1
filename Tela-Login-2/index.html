@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/Tela-Login-2/index.css">
     <link rel="shortcut icon" href="/Public/icons8-login-32.png" type="image/x-icon">
     <title>Tela de Login</title>
 </head>
@@ -13,15 +13,13 @@
         <form action="" class="formulario">
             <h1 class="titulo">Login</h1>
             <div class="in">
-                <input type="text" name="" id="" class="input" placeholder="Usuario">
-                <i class="fa-solid-fa-user"></i>
+                <input type="text" class="input" placeholder="Usuario" required maxlength="100">
             </div>
             <div class="in">
-                <input type="password" name="" id="" class="input" placeholder="Senha">
-                <i class="fa-solid-fa-lock"></i>
+                <input type="password" class="input" placeholder="Senha" required maxlength="8" pattern="[A-Za-z]{8}" title="Preencha este campo com até 8 letras.">
             </div>
             <button class="submit">Entrar</button>
-            <p class="footer">Não tem conta? <a href="/cadastro.html"class="link">Por favor cadastre-se!</a></p>
+            <p class="footer">Não tem conta? <a href="/Tela-Login-2/cadastro.html"class="link">Por favor cadastre-se!</a></p>
         </form>
         <div></div>
         <div class="banner">
